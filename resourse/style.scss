@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+  }
+  .mainPage{
+    height: 800px;
+    background: #DB6C6C;
+    background:linear-gradient(to bottom right,#DB6C6C, #EBA9A9);
+    display: flex; 
+    align-items: center; 
+  }
+  .backimage{
+      position: absolute;
+      height: 100%;
+      width:100%;
+      background-image: url(../resourse/image/Antiques7.jpg);
+      background-position: bottom right;
+      
+      background-repeat: no-repeat;
+     
+}
+  .contant{
+      h1{
+          font-family: 'Courier New', Courier, monospace;
+          color: #FFFFFF;
+          font-size: 50px;
+          margin: 0;
+      }
+      p{
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          color: black;
+          font-size: 40px;
+      }
+
+    
+
+  }
+  
